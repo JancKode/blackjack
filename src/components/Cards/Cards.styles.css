@@ -1,0 +1,25 @@
+.card,
+.card-red {
+  height: 15rem;
+  width: 11.8rem;
+  background-color: rgb(228, 224, 224);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-red {
+  color: red;
+}
+
+.card-face {
+  font-size: 32px;
+}
+
+.card-border {
+  background-color: rgb(0, 183, 255);
+  border-radius: 5px;
+  border-width: 8px;
+  padding: 2px;
+}

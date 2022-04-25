@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  max-height: 100vh;
 }
 
 .App-logo {
@@ -28,11 +29,21 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards {
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem;
+}
+
+.player-score {
+  font-size: 24px;
+}
+
+.game-status {
+  font-size: 32px;
+  color: #282c34;
 }
